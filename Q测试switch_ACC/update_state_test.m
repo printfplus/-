@@ -1,4 +1,4 @@
-function [state,reward,a2] = update_state(state,a)
+function [state,reward,a2] = update_state_test(state,a)
     reward = 0;
     dt = 0.1;
     vmin = 20;
